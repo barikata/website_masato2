@@ -1,0 +1,60 @@
+body,html{
+  height: 100%;
+}
+
+h1,h2{
+color: #FFD700;
+font-family:  Montserrat;
+font-weight: 700;
+}
+.intro{
+  background: url(../img/bg-3.jpg);
+  background-repeat: no-repeat;
+  border-size:cover;
+  background-size:100%;
+  color: #fff;
+  height: 100%;
+  padding-top: 15%;
+}
+.center-block{
+  padding-bottom: 20px;
+}
+.top-block{
+padding-top: 100px;
+  padding-bottom: 100px;
+}
+.btn-entry{
+  color: #fff;
+  border:4px solid #fff;
+  margin-top:200px;
+}
+.btn-entry:hover{
+  background: #FFD700;
+  border-color: #FFD700;
+  color: #fff;
+  transition:all 0.2s linear;
+}
+#points{
+  background: url(../img/point-bg.jpg) center center;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  padding-top: 15%;
+}
+.icon-sm{
+  font-size:20px;
+}
+.icon-md{
+  font-size:40px;
+}
+.icon-lg{
+  font-size:80px;
+}
+.text-empty{
+ color: #fff;
+}
+footer{
+  background-color:darkslategray;
+  padding: 30px;
+  color: #FFF;
+}

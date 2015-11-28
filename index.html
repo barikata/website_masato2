@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>self_introduction</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!--
+  <script src="jquery.smooth-scroll.min.js"></script>
+  <script>
+         $('btn').smoothScroll();
+  </script>
+  -->
+  <script>
+    $(function(){
+      $('a[href^=.btn-entry]').click(function() {
+        var speed  = 400;
+        var href   = $(this).attr(".btn-entry");
+        var target = $("#ourstory");
+        var posTop = $("#ourstory").offset().top;
+        $('body,html').animate({ scrollTop :posTop }, 300, 'swing');
+        return false;
+      });
+    });
+  </script>
+</head>
+<body>
+ <div class="container-flued intro">
+ <div class="row text-center">
+ <img src="./img/logo.png" alt="" class="img-responsive center-block">
+ <h1 class="text-empty">SUZUKI MASATO</h1>
+ <a href="#ourstory" title="" class="btn btn-entry">READ MORE</a>
+ </div>
+ </div>
+  <h1 class="text-center"></h1>
+  <div class="container top-block" id="ourstory">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h2>Introduction</h2>
+        <p><b>鈴木誠人（すずきまさと）。1991年4月26日生まれ。</b><br>
+        2010年に早稲田大学人間科学部に入学し、2016年3月に卒業見込。もともと2015年度卒業の予定だったが、あるキャリアデザインスクールへの参加をきっかけに就活をもう一度することを決意。レイアウトデザインや企画に興味あり。</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-flued top-block" id="points">
+  <div class="row">
+      <div class="col-sm-2 col-md-offset-2 text-center">
+        <h2 class="text-empty"><i class="fa fa-male"></i></h2> 
+        <h2>Presentation</h2>
+        <p>予備校の授業、大学、サークルにおける広報、インターンなどにおいて計200回以上のプレゼンテーションを経験。スライド作成が得意。</p>
+      </div>
+      <div class="col-sm-2 col-md-offset-1 text-center">
+      <h2 class="text-empty"><i class="fa fa-users"></i></h2> 
+        <h2>Facillitation</h2>
+        <p>予備校の小論文の授業にて、高校生同士のディスカッションのファシリテーターを5年間経験。話を引き出す力やまとめる力を習得。</p>
+      </div>
+      <div class="col-sm-2 col-md-offset-1 text-center">
+       <h2 class="text-empty"><i class="fa fa-pencil-square"></i></h2> 
+        <h2>Design</h2>
+        <p>スライド作成をきっかけにデザインに興味を持ち、IllustratorやPhotoshopを使い始める。現在はインターン先でロゴやフライヤーの作成を務める。</p>
+      </div>
+    </div>
+  </div>
+  <div class="container top-block">
+  <div class="row">
+      <div class="col-md-4 text-center">
+        <img src="img/works-01.jpg" alt="" class="img-responsive">
+        <h2>Life is Tech!</h2>
+        <p>2015年より、Life is Tech!に参画。中高生に名刺やロゴのデザインを教えています。ものづくりを通して生徒の個性が輝くのを見るのが喜びです。</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <img src="img/works-02.jpg" alt="" class="img-responsive">
+        <h2>WORKS APPLICATIONS</h2>
+        <p>約1ヶ月かけて行われるワークスのインターンに参加。<br>
+        与えられた課題に対する理想のシステムを0から自分の頭だけで考えました。本質的な思考法だけでなく、顧客満足の徹底的な検討の必要性を社員の方に指摘され、<br>
+        自分の案を何度も1から考え直しました。その結果、入社パスを頂くことができました。
+        </p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <img src="img/works-03.jpg" alt="" class="img-responsive">
+        <h2>Mission Challenge</h2>
+        <p>ベトナムでの一週間のビジネスプログラムに参加。現地の日本人経営者から新規事業の提案やマーケティングの課題が毎日与えられ、短い時間の中で発表しました。また、最終日には、ベトナム人の経営幹部への研修講師を務めることに。ベトナムのビジネスマンに向けてリーダーシップについて学ぶワークショップを開きました。</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+         <div class="col-md-6 col-md-offset-3">
+        <ul class="list-inline text-center">
+          <li class="icon-sm">
+            <a href="https://twitter.com" title class="fa fa-twitter icon-empty"></a>
+          </li>
+           <li class="icon-sm">
+            <a href="https://www.facebook.com/?locale=ja_JP" title class="fa fa-facebook icon-empty"></a>
+          </li>
+           <li class="icon-sm">
+            <a href="#" title class="fa fa-google-plus icon-empty"></a>
+          </li>
+           <li class="icon-sm">
+            <a href="#" title class="fa fa-github icon-empty"></a>
+          </li>
+        </ul>
+        <hr>
+        <p class="text-center">
+          <small>Copyright © Suzuki Masato. All Rights Reserved</small>
+        </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
